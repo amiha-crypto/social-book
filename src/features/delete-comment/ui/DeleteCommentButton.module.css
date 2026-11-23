@@ -1,0 +1,12 @@
+.deleteBtn {
+  width: 107px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 479px) {
+  .deleteBtn {
+    width: auto;
+    align-self: flex-end;
+    min-width: 100px;
+  }
+}

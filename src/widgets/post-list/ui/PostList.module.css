@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+}
+
+.emptyState {
+  padding: 28px 20px;
+  text-align: center;
+}
+
+.emptyText {
+  font-size: 18px;
+  color: var(--color-border-input);
+}
+
+@media (max-width: 599px) {
+  .list {
+    gap: 20px;
+  }
+}

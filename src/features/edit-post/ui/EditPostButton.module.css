@@ -1,0 +1,9 @@
+.editBtn {
+  min-width: 121px;
+}
+
+@media (max-width: 599px) {
+  .editBtn {
+    min-width: 0;
+  }
+}

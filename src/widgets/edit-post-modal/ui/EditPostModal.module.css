@@ -1,0 +1,63 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 113px;
+  padding: 9px 18px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border-input);
+  border-radius: var(--radius-md);
+  color: var(--color-text-primary);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-lg);
+  font-weight: 400;
+  line-height: 1.24;
+  resize: vertical;
+  outline: none;
+  transition:
+    border-color 0.16s ease,
+    box-shadow 0.16s ease;
+}
+
+.textarea:focus {
+  border-color: var(--color-border-accent);
+  box-shadow: 0 0 0 2px rgba(0, 148, 255, 0.2);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 32px;
+}
+
+.confirmBtn {
+  min-width: 149px;
+}
+
+.closeBtn {
+  min-width: 121px;
+}
+
+@media (max-width: 599px) {
+  .textarea {
+    min-height: 156px;
+    padding: 10px 14px;
+    font-size: 18px;
+    line-height: 1.35;
+  }
+
+  .actions {
+    gap: 10px;
+  }
+
+  .confirmBtn,
+  .closeBtn {
+    flex: 1;
+    min-width: 0;
+  }
+}

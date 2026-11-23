@@ -1,0 +1,56 @@
+.input {
+  width: 100%;
+  border: 1px solid var(--color-border-input);
+  border-radius: var(--radius-md);
+  color: var(--color-text-primary);
+  font-family: var(--font-family-base);
+  font-weight: 400;
+  line-height: 1.25;
+  outline: none;
+  transition:
+    border-color 0.16s ease,
+    box-shadow 0.16s ease;
+}
+
+.input::placeholder {
+  color: var(--color-text-placeholder);
+}
+
+.input:focus {
+  border-color: var(--color-border-accent);
+  box-shadow: 0 0 0 2px rgba(0, 148, 255, 0.2);
+}
+
+.surface {
+  background-color: var(--color-surface);
+}
+
+.white {
+  background-color: var(--color-white);
+}
+
+.md {
+  height: 43px;
+  padding: 0 20px;
+  font-size: var(--font-size-md);
+}
+
+.lg {
+  height: 51px;
+  padding: 0 14px;
+  font-size: var(--font-size-lg);
+}
+
+@media (max-width: 599px) {
+  .lg {
+    height: 44px;
+    padding: 0 14px;
+    font-size: 16px;
+  }
+
+  .md {
+    height: 40px;
+    padding: 0 14px;
+    font-size: 15px;
+  }
+}

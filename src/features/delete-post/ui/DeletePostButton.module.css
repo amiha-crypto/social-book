@@ -1,0 +1,9 @@
+.deleteBtn {
+  min-width: 121px;
+}
+
+@media (max-width: 599px) {
+  .deleteBtn {
+    min-width: 0;
+  }
+}

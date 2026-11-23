@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.input {
+  flex: 1;
+  min-width: 0;
+}
+
+.submitBtn {
+  width: 117px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 599px) {
+  .form {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .input {
+    flex: none;
+  }
+
+  .submitBtn {
+    width: 100%;
+  }
+}

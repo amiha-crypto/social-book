@@ -1,0 +1,49 @@
+.wrapper {
+  padding: 19px 16px 19px 21px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.input {
+  flex: 1;
+  min-width: 0;
+}
+
+.submitBtn {
+  width: 177px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    padding: 16px;
+  }
+
+  .form {
+    gap: 14px;
+  }
+
+  .submitBtn {
+    width: 145px;
+  }
+}
+
+@media (max-width: 599px) {
+  .form {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .input {
+    flex: none;
+  }
+
+  .submitBtn {
+    width: 100%;
+  }
+}

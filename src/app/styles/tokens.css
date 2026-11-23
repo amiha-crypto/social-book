@@ -1,0 +1,30 @@
+:root {
+  /* Exact Figma Palette — Social Book */
+  --color-bg-page: #e1f8ff;
+  --color-surface: #fcfbfb;
+  --color-white: #ffffff;
+  --color-border-accent: #0094ff;
+  --color-border-input: #6e6e6e;
+  --color-divider: #9c9c9c;
+
+  --color-primary: #216cff;
+  --color-primary-hover: #145be0;
+  --color-danger: #ff218b;
+  --color-danger-hover: #e01375;
+
+  --color-text-primary: #000000;
+  --color-text-placeholder: rgba(0, 0, 0, 0.72);
+  --color-text-inverse: #fcfbfb;
+
+  --color-modal-overlay: rgba(108, 158, 255, 0.59);
+
+  /* Typography */
+  --font-family-base: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-size-lg: 24px;
+  --font-size-md: 16px;
+
+  /* Geometry & Elevation */
+  --container-width: 800px;
+  --radius-md: 15px;
+  --shadow-card: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

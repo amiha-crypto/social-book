@@ -1,0 +1,17 @@
+.showBtn {
+  min-width: 156px;
+}
+
+.hideBtn {
+  min-width: 115px;
+}
+
+@media (max-width: 599px) {
+  .showBtn {
+    min-width: 0;
+  }
+
+  .hideBtn {
+    min-width: 115px;
+  }
+}
